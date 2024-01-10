@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "langchain-for-llm-application-development"
+version = "0.1.0"
+description = "Course covering generative AI, large language models (LLMs), vector search, retrieval aided generation (RAG), LLM fine-tuning."
+authors = ["Russell Jurney <rjurney@graphlet.ai>"]
+readme = "README.md"
+packages = [{include = "langchain-for-llm-application-development", from = "."}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain = ">=0.0.350"
+langchainhub = "^0.1.13"
