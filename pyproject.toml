@@ -10,3 +10,8 @@ packages = [{include = "langchain-for-llm-application-development", from = "."}]
 python = "^3.10"
 langchain = ">=0.0.350"
 langchainhub = "^0.1.13"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
